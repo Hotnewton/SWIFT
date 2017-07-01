@@ -121,6 +121,14 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="enl-ou-P0M" secondAttribute="bottom" constant="246" id="yVG-Sk-b6n"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="companyText" destination="1u5-fq-0NA" id="LHy-GI-7wY"/>
+                        <outlet property="nameText" destination="qSS-73-xb2" id="oP5-FR-S4G"/>
+                        <outlet property="phoneText" destination="WDn-hT-0Y6" id="21j-CD-25b"/>
+                        <outlet property="storeNameLabel" destination="et0-pt-zJe" id="nse-R9-EOT"/>
+                        <outlet property="storedCompanyLabel" destination="JKS-UU-Rn2" id="SPQ-Ea-Ypa"/>
+                        <outlet property="storedPhoneLabel" destination="YHi-Ga-HoH" id="VeT-8F-r98"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

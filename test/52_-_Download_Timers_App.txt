@@ -1,2 +1,0 @@
-Download from here:
-  https://github.com/atilsamancioglu/Swift.10.Timers

@@ -80,7 +80,10 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="wuZ-m7-2PY"/>
                                 </constraints>
-                                <state key="normal" title="Write"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="42W-NG-Hvb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQo-IT-QgD">
                                 <rect key="frame" x="254" y="388" width="70" height="33"/>
@@ -88,6 +91,9 @@
                                     <constraint firstAttribute="width" constant="70" id="TnS-F9-BXm"/>
                                 </constraints>
                                 <state key="normal" title="Delete"/>
+                                <connections>
+                                    <action selector="deleteButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kpM-hQ-P8b"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

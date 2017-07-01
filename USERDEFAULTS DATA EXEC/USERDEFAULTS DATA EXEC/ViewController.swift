@@ -21,7 +21,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var storedCompanyLabel: UILabel!
     
 
+    @IBAction func saveButtonClicked(_ sender: Any) {
+    }
     
+    @IBAction func deleteButtonClicked(_ sender: Any) {
+    }
     
     
     override func viewDidLoad() {

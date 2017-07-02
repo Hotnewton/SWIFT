@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +21,57 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMe-Pk-OEd">
+                                <rect key="frame" x="160" y="318" width="55" height="30"/>
+                                <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="myButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TRw-XN-DC2"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UserName" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Epf-uM-vYt">
+                                <rect key="frame" x="26" y="28" width="322" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xDF-Wg-WyL">
+                                <rect key="frame" x="26" y="86" width="322" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Passward Again" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xxP-p9-jlM">
+                                <rect key="frame" x="26" y="140" width="322" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Epf-uM-vYt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="8Fx-Eg-sht"/>
+                            <constraint firstItem="Epf-uM-vYt" firstAttribute="trailing" secondItem="xDF-Wg-WyL" secondAttribute="trailing" id="Gce-kE-zds"/>
+                            <constraint firstItem="Epf-uM-vYt" firstAttribute="leading" secondItem="xDF-Wg-WyL" secondAttribute="leading" id="GrX-rH-fy4"/>
+                            <constraint firstItem="Epf-uM-vYt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="YHG-0J-MWU"/>
+                            <constraint firstItem="xDF-Wg-WyL" firstAttribute="trailing" secondItem="xxP-p9-jlM" secondAttribute="trailing" id="ZH2-ny-r1S"/>
+                            <constraint firstItem="Epf-uM-vYt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZZJ-Dp-JJ0"/>
+                            <constraint firstItem="xDF-Wg-WyL" firstAttribute="leading" secondItem="xxP-p9-jlM" secondAttribute="leading" id="cxn-3J-JRc"/>
+                            <constraint firstItem="xxP-p9-jlM" firstAttribute="centerX" secondItem="bMe-Pk-OEd" secondAttribute="centerX" id="dQK-yM-hje"/>
+                            <constraint firstItem="xDF-Wg-WyL" firstAttribute="top" secondItem="Epf-uM-vYt" secondAttribute="bottom" constant="28" id="iHb-ht-Cel"/>
+                            <constraint firstItem="bMe-Pk-OEd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nrK-9l-xvx"/>
+                            <constraint firstItem="xxP-p9-jlM" firstAttribute="top" secondItem="xDF-Wg-WyL" secondAttribute="bottom" constant="24" id="xTI-Gx-U4e"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordAgainText" destination="xxP-p9-jlM" id="QvC-Ed-hyp"/>
+                        <outlet property="passwordText" destination="xDF-Wg-WyL" id="14p-mt-xHo"/>
+                        <outlet property="userNameText" destination="Epf-uM-vYt" id="hsa-LF-Qte"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="4" y="21"/>
         </scene>
     </scenes>
 </document>

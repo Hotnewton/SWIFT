@@ -10,16 +10,62 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var userNameText: UITextField!
+    
+    @IBOutlet weak var passwordText: UITextField!
+    
+    @IBOutlet weak var passwordAgainText: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
     }
 
 
+ 
+    @IBAction func myButtonClicked(_ sender: Any) {
+        
+        if userNameText.text == "" {
+            
+            let alert = UIAlertController.init(title: "Error", message: "Please provide a username !!", preferredStyle: .alert )
+            
+            let okButton = UIAlertAction.init(title: "OK", style: .cancel, handler: nil )
+            
+            alert.addAction(okButton)
+            self.present(alert, animated: true, completion: nil)
+        }else if passwordText.text == ""
+        
+        {
+            let alert = UIAlertController.init(title: "Error", message: "Please provide a passwords !!", preferredStyle: .alert )
+                
+            let okButton = UIAlertAction.init(title: "OK", style: .cancel, handler: nil )
+                
+            alert.addAction(okButton)
+            
+            self.present(alert, animated: true, completion: nil)
+
+        } else if passwordText.text != passwordAgainText.text
+        
+        {
+            let alert = UIAlertController.init(title: "Error", message: "Please provide matching passwords!!", preferredStyle: .alert )
+            
+            let okButton = UIAlertAction.init(title: "OK", style: .cancel, handler: nil )
+            
+            alert.addAction(okButton)
+            self.present(alert, animated: true, completion: nil)
+
+        } else
+            
+        {
+            let alert = UIAlertController.init(title: "Error", message: "\(userNameText.text!) is Created", preferredStyle: .alert )
+            
+            let okButton = UIAlertAction.init(title: "OK", style: .cancel, handler: nil )
+            
+            alert.addAction(okButton)
+            self.present(alert, animated: true, completion: nil)
+
+        }
+    }
 }
 

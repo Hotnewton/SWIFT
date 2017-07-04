@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF66228A1F09553400E960C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6622891F09553400E960C4 /* AppDelegate.swift */; };
-		EF66228C1F09553400E960C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66228B1F09553400E960C4 /* ViewController.swift */; };
-		EF66228F1F09553400E960C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66228D1F09553400E960C4 /* Main.storyboard */; };
-		EF6622911F09553400E960C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6622901F09553400E960C4 /* Assets.xcassets */; };
-		EF6622941F09553400E960C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6622921F09553400E960C4 /* LaunchScreen.storyboard */; };
-		EF66229D1F0956E900E960C4 /* James.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF66229B1F0956E900E960C4 /* James.jpg */; };
-		EF66229E1F0956E900E960C4 /* Kirk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF66229C1F0956E900E960C4 /* Kirk.jpg */; };
+		EFC2BFA61F0A719300B2DF15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2BFA51F0A719300B2DF15 /* AppDelegate.swift */; };
+		EFC2BFA81F0A719300B2DF15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2BFA71F0A719300B2DF15 /* ViewController.swift */; };
+		EFC2BFAB1F0A719300B2DF15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC2BFA91F0A719300B2DF15 /* Main.storyboard */; };
+		EFC2BFAD1F0A719300B2DF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC2BFAC1F0A719300B2DF15 /* Assets.xcassets */; };
+		EFC2BFB01F0A719300B2DF15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC2BFAE1F0A719300B2DF15 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF6622861F09553400E960C4 /* Working with Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Working with Images.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF6622891F09553400E960C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF66228B1F09553400E960C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF66228E1F09553400E960C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF6622901F09553400E960C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF6622931F09553400E960C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EF6622951F09553400E960C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF66229B1F0956E900E960C4 /* James.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = James.jpg; sourceTree = "<group>"; };
-		EF66229C1F0956E900E960C4 /* Kirk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kirk.jpg; sourceTree = "<group>"; };
+		EFC2BFA21F0A719300B2DF15 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC2BFA51F0A719300B2DF15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFC2BFA71F0A719300B2DF15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFC2BFAA1F0A719300B2DF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFC2BFAC1F0A719300B2DF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFC2BFAF1F0A719300B2DF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFC2BFB11F0A719300B2DF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF6622831F09553400E960C4 /* Frameworks */ = {
+		EFC2BF9F1F0A719300B2DF15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,75 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF66227D1F09553400E960C4 = {
+		EFC2BF991F0A719300B2DF15 = {
 			isa = PBXGroup;
 			children = (
-				EF6622881F09553400E960C4 /* Working with Images */,
-				EF6622871F09553400E960C4 /* Products */,
+				EFC2BFA41F0A719300B2DF15 /* Timer */,
+				EFC2BFA31F0A719300B2DF15 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF6622871F09553400E960C4 /* Products */ = {
+		EFC2BFA31F0A719300B2DF15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF6622861F09553400E960C4 /* Working with Images.app */,
+				EFC2BFA21F0A719300B2DF15 /* Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF6622881F09553400E960C4 /* Working with Images */ = {
+		EFC2BFA41F0A719300B2DF15 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				EF66229B1F0956E900E960C4 /* James.jpg */,
-				EF66229C1F0956E900E960C4 /* Kirk.jpg */,
-				EF6622891F09553400E960C4 /* AppDelegate.swift */,
-				EF66228B1F09553400E960C4 /* ViewController.swift */,
-				EF66228D1F09553400E960C4 /* Main.storyboard */,
-				EF6622901F09553400E960C4 /* Assets.xcassets */,
-				EF6622921F09553400E960C4 /* LaunchScreen.storyboard */,
-				EF6622951F09553400E960C4 /* Info.plist */,
+				EFC2BFA51F0A719300B2DF15 /* AppDelegate.swift */,
+				EFC2BFA71F0A719300B2DF15 /* ViewController.swift */,
+				EFC2BFA91F0A719300B2DF15 /* Main.storyboard */,
+				EFC2BFAC1F0A719300B2DF15 /* Assets.xcassets */,
+				EFC2BFAE1F0A719300B2DF15 /* LaunchScreen.storyboard */,
+				EFC2BFB11F0A719300B2DF15 /* Info.plist */,
 			);
-			path = "Working with Images";
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF6622851F09553400E960C4 /* Working with Images */ = {
+		EFC2BFA11F0A719300B2DF15 /* Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF6622981F09553400E960C4 /* Build configuration list for PBXNativeTarget "Working with Images" */;
+			buildConfigurationList = EFC2BFB41F0A719300B2DF15 /* Build configuration list for PBXNativeTarget "Timer" */;
 			buildPhases = (
-				EF6622821F09553400E960C4 /* Sources */,
-				EF6622831F09553400E960C4 /* Frameworks */,
-				EF6622841F09553400E960C4 /* Resources */,
+				EFC2BF9E1F0A719300B2DF15 /* Sources */,
+				EFC2BF9F1F0A719300B2DF15 /* Frameworks */,
+				EFC2BFA01F0A719300B2DF15 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Working with Images";
-			productName = "Working with Images";
-			productReference = EF6622861F09553400E960C4 /* Working with Images.app */;
+			name = Timer;
+			productName = Timer;
+			productReference = EFC2BFA21F0A719300B2DF15 /* Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF66227E1F09553400E960C4 /* Project object */ = {
+		EFC2BF9A1F0A719300B2DF15 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = MacTechin;
 				TargetAttributes = {
-					EF6622851F09553400E960C4 = {
+					EFC2BFA11F0A719300B2DF15 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = L5Y8H9PGP8;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EF6622811F09553400E960C4 /* Build configuration list for PBXProject "Working with Images" */;
+			buildConfigurationList = EFC2BF9D1F0A719300B2DF15 /* Build configuration list for PBXProject "Timer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -115,56 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = EF66227D1F09553400E960C4;
-			productRefGroup = EF6622871F09553400E960C4 /* Products */;
+			mainGroup = EFC2BF991F0A719300B2DF15;
+			productRefGroup = EFC2BFA31F0A719300B2DF15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF6622851F09553400E960C4 /* Working with Images */,
+				EFC2BFA11F0A719300B2DF15 /* Timer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EF6622841F09553400E960C4 /* Resources */ = {
+		EFC2BFA01F0A719300B2DF15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF66229D1F0956E900E960C4 /* James.jpg in Resources */,
-				EF6622941F09553400E960C4 /* LaunchScreen.storyboard in Resources */,
-				EF66229E1F0956E900E960C4 /* Kirk.jpg in Resources */,
-				EF6622911F09553400E960C4 /* Assets.xcassets in Resources */,
-				EF66228F1F09553400E960C4 /* Main.storyboard in Resources */,
+				EFC2BFB01F0A719300B2DF15 /* LaunchScreen.storyboard in Resources */,
+				EFC2BFAD1F0A719300B2DF15 /* Assets.xcassets in Resources */,
+				EFC2BFAB1F0A719300B2DF15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF6622821F09553400E960C4 /* Sources */ = {
+		EFC2BF9E1F0A719300B2DF15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF66228C1F09553400E960C4 /* ViewController.swift in Sources */,
-				EF66228A1F09553400E960C4 /* AppDelegate.swift in Sources */,
+				EFC2BFA81F0A719300B2DF15 /* ViewController.swift in Sources */,
+				EFC2BFA61F0A719300B2DF15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF66228D1F09553400E960C4 /* Main.storyboard */ = {
+		EFC2BFA91F0A719300B2DF15 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF66228E1F09553400E960C4 /* Base */,
+				EFC2BFAA1F0A719300B2DF15 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EF6622921F09553400E960C4 /* LaunchScreen.storyboard */ = {
+		EFC2BFAE1F0A719300B2DF15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF6622931F09553400E960C4 /* Base */,
+				EFC2BFAF1F0A719300B2DF15 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -172,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EF6622961F09553400E960C4 /* Debug */ = {
+		EFC2BFB21F0A719300B2DF15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		EF6622971F09553400E960C4 /* Release */ = {
+		EFC2BFB31F0A719300B2DF15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,27 +257,27 @@
 			};
 			name = Release;
 		};
-		EF6622991F09553400E960C4 /* Debug */ = {
+		EFC2BFB51F0A719300B2DF15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L5Y8H9PGP8;
-				INFOPLIST_FILE = "Working with Images/Info.plist";
+				INFOPLIST_FILE = Timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MacTechin.Working-with-Images";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MacTechin2.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		EF66229A1F09553400E960C4 /* Release */ = {
+		EFC2BFB61F0A719300B2DF15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L5Y8H9PGP8;
-				INFOPLIST_FILE = "Working with Images/Info.plist";
+				INFOPLIST_FILE = Timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MacTechin.Working-with-Images";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MacTechin2.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -294,24 +286,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF6622811F09553400E960C4 /* Build configuration list for PBXProject "Working with Images" */ = {
+		EFC2BF9D1F0A719300B2DF15 /* Build configuration list for PBXProject "Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF6622961F09553400E960C4 /* Debug */,
-				EF6622971F09553400E960C4 /* Release */,
+				EFC2BFB21F0A719300B2DF15 /* Debug */,
+				EFC2BFB31F0A719300B2DF15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF6622981F09553400E960C4 /* Build configuration list for PBXNativeTarget "Working with Images" */ = {
+		EFC2BFB41F0A719300B2DF15 /* Build configuration list for PBXNativeTarget "Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF6622991F09553400E960C4 /* Debug */,
-				EF66229A1F09553400E960C4 /* Release */,
+				EFC2BFB51F0A719300B2DF15 /* Debug */,
+				EFC2BFB61F0A719300B2DF15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF66227E1F09553400E960C4 /* Project object */;
+	rootObject = EFC2BF9A1F0A719300B2DF15 /* Project object */;
 }
